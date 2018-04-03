@@ -1,0 +1,17 @@
+#calculating cost of prints at library.
+#full page color prints $0.50 each
+#half page color prints $0.30 each
+#black and white prints $0.10 each
+
+print ('Please enter the number of full page color prints')
+fullColor = input()
+
+print ('Please enter the number of half page color prints')
+halfColor = input()
+
+print ('Please enter the number of black and white prints')
+blkAndwht = input()
+
+((fullColor * 0.05) + (halfColor * 0.30) + (blkAndwht * 0.10)) = total
+print ('Your total is  ' + total)
+print ('Thank You')
